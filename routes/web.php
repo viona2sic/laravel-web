@@ -41,3 +41,5 @@ Route::get('/matakuliah/show/{kode?}', [MatakuliahController::class, 'show']);
 
 // Route sisanya untuk resource Matakuliah
 Route::resource('matakuliah', MatakuliahController::class)->except(['show']);
+
+Route::get('/home',[HomeController::class,'index']);
