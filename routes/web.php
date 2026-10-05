@@ -6,6 +6,8 @@ use App\Http\Controllers\MahasiswaController;
 
 use App\Http\Controllers\QuestionController;
 
+use App\Http\Controllers\HomeController;
+
 Route::get('/', function () {
     return view('welcome');
 });
