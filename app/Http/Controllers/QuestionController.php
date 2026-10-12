@@ -40,7 +40,7 @@ $request->validate([
     $data['email']      = $request->email;
     $data['pertanyaan'] = $request->pertanyaan;
 
-    return view('home-question-respon', $data);
+    return redirect()->route('home-question-respon')->with('info','data sudah berhasil di inputkan',$data);
     }
 
     /**
