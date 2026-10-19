@@ -98,7 +98,7 @@
                         <span class="sidebar-text">Dashboard</span>
                     </a>
                 </li>
-                
+
 	<li class="nav-item  active ">
 		    <a href="" class="nav-link">
 		        <span class="sidebar-icon">
@@ -337,13 +337,13 @@
                                     <!-- Email -->
                                     <div class="mb-3">
                                         <label for="email" class="form-label">Email</label>
-                                        <input type="text" id="email" class="form-control" email= "email" required>
+                                        <input type="text" id="email" class="form-control" name = "email" required>
                                     </div>
 
                                     <!-- Phone -->
                                     <div class="mb-3">
                                         <label for="phone" class="form-label">Phone</label>
-                                        <input type="text" id="phone" class="form-control" phone= "phone">
+                                        <input type="text" id="phone" class="form-control" name = "phone">
                                     </div>
 
                                     <!-- Buttons -->
